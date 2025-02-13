@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>About Us</title>
     <style>
         nav {
@@ -16,6 +17,17 @@
             margin: 0 15px;
             font-size: 18px;
         }
+        .carousel-caption-custom {
+            position: absolute;
+            left: 10%; /* Moves text further right */
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: left;
+            max-width: 40%;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -24,7 +36,170 @@
         <a href="about.html">About Us</a>
         <a href="favorite.html">Favorite Moments</a>
     </nav>
-    <h1>About Us</h1>
-    <p>Information about our journey and mission.</p>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Taking us back all the way to our first ever snapchat! Remember these days? The dorms are how it started with us but that 
+                                is only the beginning of our jounrey. While I got to have fun with you during this time I also got to begin to know the amazing Megan I know today!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a1.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 350px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Our first formal together! This is the first thing we ever did together, and boy was it the most fun time ever. I learned
+                                how much fun my life is with you! We got to take awesome photos and have a ball (so much so that we missed dinner)!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a2.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 450px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Look at how cute we are! You know I had to add a nice photo of us here haha!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a3.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 1400px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Then you took me to your formal! I got to see you in a beautiful dress looking like my future wife! We had so much fun 
+                                messing around, ducking lines, and dodging trouble! It is so easy to have fun when I am with you because you are
+                                my fun!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a4.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 450px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Flaashforward a little and look! Megan is the big NYC! This is when we started dating and it makes me so happy. My friends
+                                got to meet the amazing person that I spend all of my time with! You got to meet my dog, my parents, and traveled!
+                                We saw your sister, went to the lake, the city, we made the most of it! As we always do!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a5.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 800px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Move in day! Took the train from Bacons and it was the shortest trip ever because I was going to see you! I got to meet your parents and see your
+                                sister too! I had so much fun helping your Dad and getting your room to be your cozy space. This was my first and last time sleeping
+                                in that bed of yours and it was comfy! Sko buffs! You should wear this hat more its so cute!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a6.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 500px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Everything I do with you is easy. Its pure joy and you always make me laugh, even make me show my teeth! 
+                                Little wine drunk after an Italian resteraunt is always a good time especially when I get to look at you!
+                                To more dinners and laughs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a7.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 500px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>Family time! Remember how worried we were during this, wondering if our parents would not like each other?
+                                How stupid we were they had a great time and talked all dinner! I loved being able to play music for your Family.
+                                This was one of my most favorite weekends of the entire year!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a8.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 500px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="carousel-caption-custom">
+                            <p>I am so greatful for you. You make my world brighter and help me be the best person I can be!
+                                We have grown together and it has been beautiful looking back and seeing it! I am so excited for 
+                                what is ahead of us.
+                            </p>
+                            <p> We are going to have so much fun at knock2. It will give me more time to look at you like this.
+                                Because I am madly in love with you, you are my sun Megan!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="a9.jpg" class="d-block mx-auto img-fluid" alt="..." style="max-width: 350px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
